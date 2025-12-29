@@ -14,6 +14,14 @@ img {
   display: block;
 }
 
+.subscriber-box {
+  background: rgba(0,0,0,0.3);
+  padding: 8px 14px;
+  border-radius: 999px;
+  display: inline-block;
+}
+
+
 /* ===== LAYOUT ===== */
 .layout {
   display: grid;
@@ -146,5 +154,6 @@ body.winter {
     padding: 20px;
   }
 }
+
 
 
