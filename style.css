@@ -23,13 +23,19 @@ body {
 }
 
 .logo {
-  background: rgba(255,255,255,0.3);
+  background: rgba(255,255,255,0.25);
   border-radius: 50%;
   height: 200px;
+  width: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: bold;
+}
+
+.logo img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
 }
 
 /* ===== HEADER & CONTENT ===== */
@@ -134,3 +140,4 @@ body.winter {
     padding: 20px;
   }
 }
+
