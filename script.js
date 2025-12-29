@@ -1,8 +1,8 @@
 const seasons = [
-  { name: "Spring", emoji: "🌸", startMonth: 11, class: "spring" },
+  { name: "Spring", emoji: "🌸", startMonth: 2, class: "spring" },
   { name: "Summer", emoji: "☀️", startMonth: 5, class: "summer" },
   { name: "Autumn", emoji: "🍁", startMonth: 8, class: "autumn" },
-  { name: "Winter", emoji: "❄️", startMonth: 2, class: "winter" }
+  { name: "Winter", emoji: "❄️", startMonth: 11, class: "winter" }
 ];
 
 const now = new Date();
@@ -58,4 +58,5 @@ function updateCountdown() {
 
 setInterval(updateCountdown, 1000);
 updateCountdown();
+
 
